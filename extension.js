@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "ShadowBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
@@ -68,8 +68,8 @@
         timeGuard: true,
         maximumSongLength: 10,
         autodisable: true,
-        commandCooldown: 30,
-        usercommandsEnabled: true,
+        commandCooldown: 60,
+        usercommandsEnabled: false,
         lockskipPosition: 3,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
@@ -82,9 +82,9 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Pineapple's are not very good hats!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -92,8 +92,8 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: null,
-        website: null,
+        youtubeLink: https://www.youtube.com/user/droidgameztv,
+        website: http://www.droidesigns.cf/,
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
